@@ -1,34 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Terminal Portfolio Website by TheDanniCraft
 
-## Getting Started
+![Terminal Portfolio Website by TheDanniCraft](https://cdn.thedannicraft.de/Terminal.png)
 
-First, run the development server:
+![react](https://img.shields.io/badge/Built%20with-React-blue?style=for-the-badge)
+[![Deploy Status](https://img.shields.io/github/actions/workflow/status/TheDanniCraft/TerminalWebsite/nextjs.yml?style=for-the-badge)](https://github.com/TheDanniCraft/TerminalWebsitehttps://app.netlify.com/sites/terminal-sn/deploy)
+![Version](https://img.shields.io/github/package-json/v/TheDanniCraft/TerminalWebsite?style=for-the-badge)
+![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge)
+
+A terminal styled website, built with react and deployed to github pages.
+
+## Features
+
+- Responsive Design 📱💻
+- View command history 📖
+- Use arrow keys to navigate in command history ⬆️⬇️
+
+## Tech Stack
+
+**Frontend** - [React](https://reactjs.org/)
+**Deployment** - [Github Pages](https://pages.github.com/)
+
+## Running Locally
+
+Clone the project
+
+```bash
+https://github.com/TheDanniCraft/TerminalWebsite.git
+```
+
+Go to the project directory
+
+```bash
+cd TerminalWebsite
+```
+
+Remove remote origin
+
+```bash
+git remote remove origin
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Inspiration and Credits
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+I was inspired by these people/projects. Without them I wouldn't even had the idea to build this in the first place, so thanks to all of them! All codes are written on my own.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [@satnaing](https://github.com/satnaing)
 
-## Learn More
+## Author
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [@thedannicraft](https://´github.com/thedannicraft)
