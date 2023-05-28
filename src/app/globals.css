@@ -3,25 +3,73 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+	--foreground-rgb: 203, 213, 255;
+	--background-rgb: 29, 42, 53;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+	color: rgb(var(--foreground-rgb));
+	background: rgb(var(--background-rgb));
+}
+
+a {
+	text-decoration: underline;
+	text-decoration-style: dashed;
+}
+
+a:hover {
+	text-decoration-style: solid;
+}
+
+.commandWrapper {
+	display: flex;
+	flex-direction: row;
+}
+
+.commandPromt {
+	background: transparent;
+	flex-grow: 1;
+	width: 100%;
+}
+
+.commandPromt:focus {
+	outline-width: 0;
+}
+
+.prefix {
+	color: rgb(255, 157, 0);
+}
+
+.secondary {
+	color: rgb(5, 206, 145);
+}
+
+.error {
+	color: #f81427;
+}
+
+.asciArt {
+	font-size: 0.7rem;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #8d8f91 none;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+	background: none;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #8d8f91;
+	border-radius: 10px;
+	border: none;
 }
