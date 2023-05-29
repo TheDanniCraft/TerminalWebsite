@@ -8,6 +8,14 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["master"]
+    
+  pull_request:
+    types:
+      - opened
+      - synchronize
+  check_suite:
+    types:
+      - completed
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -81,6 +89,24 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./out
+      # Set status check
+      - name: Set status check
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const octokit = github.getOctokit(process.env.GITHUB_TOKEN);
+            await octokit.checks.create({
+              ...context.repo,
+              head_sha: context.payload.check_suite.head_sha,
+              name: 'Status Check Name',
+              status: 'completed',
+              conclusion: 'success',
+              output: {
+                title: 'Status Check Title',
+                summary: 'Status Check Summary'
+              }
+            })
 
   # Deployment job
   deploy:
