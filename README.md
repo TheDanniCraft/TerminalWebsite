@@ -18,6 +18,7 @@ A terminal styled website, built with react and deployed to github pages.
 ## Tech Stack
 
 **Frontend** - [React](https://reactjs.org/)
+
 **Deployment** - [Github Pages](https://pages.github.com/)
 
 ## Running Locally
