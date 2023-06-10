@@ -16,6 +16,7 @@ import React, { useEffect, useLayoutEffect, useRef, useState } from 'react';
 
 const commandHistory = [];
 let historyIndex = 0;
+const commands = ["about", "clear", "contact", "echo", "exit", "help", "history", "projects", "projects go", "socials", "socials go", "welcome", "whoami"];
 
 export default function Home() {
   const commandRef = useRef(null);
@@ -132,6 +133,17 @@ export default function Home() {
     if (event.key === 'Enter') {
       historyIndex = 0;
       handleSubmit();
+    }
+    if (event.key === 'Tab') {
+      event.preventDefault();
+
+      const matchingSuggestion = commands.find((suggestion) =>
+        suggestion.startsWith(inputValue)
+      );
+
+      if (matchingSuggestion) {
+        setInputValue(matchingSuggestion);
+      }
     }
   };
 
