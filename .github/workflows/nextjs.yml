@@ -8,7 +8,7 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["master"]
-    
+
   pull_request:
     types:
       - opened
@@ -89,7 +89,17 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./out
-          
+
+  # Update readme list
+  contrib-readme-job:
+    runs-on: ubuntu-latest
+    name: A job to automate contrib in readme
+    steps:
+      - name: Contribute List
+        uses: akhilmhdh/contributors-readme-action@v2.3.6
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   # Deployment job
   deploy:
     environment:

@@ -13,6 +13,7 @@ A terminal styled website, built with react and deployed to github pages.
 
 - Responsive Design 📱💻
 - View command history 📖
+- Tab Complete ⏭️
 - Use arrow keys to navigate in command history ⬆️⬇️
 
 ## Tech Stack
@@ -52,6 +53,10 @@ Start the server
 ```bash
 npm run dev
 ```
+
+## Contributers
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
 
 ## Inspiration and Credits
 
