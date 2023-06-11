@@ -57,7 +57,9 @@ Start the server
 npm run dev
 ```
 
-## Contributers
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -75,6 +77,8 @@ npm run dev
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
 ## Inspiration and Credits
 
 I was inspired by these people/projects. Without them I wouldn't even had the idea to build this in the first place, so thanks to all of them! All codes are written on my own.
@@ -84,16 +88,3 @@ I was inspired by these people/projects. Without them I wouldn't even had the id
 ## Author
 
 - [@thedannicraft](https://´github.com/thedannicraft)
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
