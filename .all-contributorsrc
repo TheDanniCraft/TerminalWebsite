@@ -1,26 +1,26 @@
 {
-  "files": [
-    "README.md"
-  ],
-  "imageSize": 100,
-  "commit": false,
-  "commitType": "docs",
-  "commitConvention": "angular",
-  "contributors": [
-    {
-      "login": "ColorsCrypt",
-      "name": "Colors",
-      "avatar_url": "https://avatars.githubusercontent.com/u/126079750?v=4",
-      "profile": "https://github.com/ColorsCrypt",
-      "contributions": [
-        "code"
-      ]
-    }
-  ],
-  "contributorsPerLine": 7,
-  "skipCi": true,
-  "repoType": "github",
-  "repoHost": "https://github.com",
-  "projectName": "TerminalWebsite",
-  "projectOwner": "TheDanniCraft"
+	"files": [
+		"README.md"
+	],
+	"imageSize": 100,
+	"commit": true,
+	"commitType": "docs",
+	"commitConvention": "angular",
+	"contributors": [
+		{
+			"login": "ColorsCrypt",
+			"name": "Colors",
+			"avatar_url": "https://avatars.githubusercontent.com/u/126079750?v=4",
+			"profile": "https://github.com/ColorsCrypt",
+			"contributions": [
+				"code"
+			]
+		}
+	],
+	"contributorsPerLine": 7,
+	"skipCi": true,
+	"repoType": "github",
+	"repoHost": "https://github.com",
+	"projectName": "TerminalWebsite",
+	"projectOwner": "TheDanniCraft"
 }
