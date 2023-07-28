@@ -9,6 +9,5 @@
       "automerge": true
     }
   ],
-  "labels": ["dependencies"],
-  "semanticCommitType": "chore"
+  "labels": ["dependencies"]
 }
