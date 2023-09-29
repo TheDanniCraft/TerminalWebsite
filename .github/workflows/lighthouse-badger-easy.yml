@@ -14,15 +14,15 @@ name: 'Lighthouse-Badger-Easy'
 
 # INPUTS as environmental variables (env) for not manually triggered workflows 
 env:
-  URLS: # URL(s) to be checked e.g. 'https://github.com/sitdisch https://github.com/mythemeway'
-  TOKEN_NAME: # target token name; insert only the name never the real value e.g. 'LIGHTHOUSE_BADGER_TOKEN'
+  URLS: https://thedannicraft.de # URL(s) to be checked e.g. 'https://github.com/sitdisch https://github.com/mythemeway'
+  TOKEN_NAME: LIGHTHOUSE_BADGER_TOKEN # target token name; insert only the name never the real value e.g. 'LIGHTHOUSE_BADGER_TOKEN'
   # THAT'S IT; JUMP TO THE TRIGGERS;
   REPO_BRANCH: '${{ github.repository }} main' # target repo & branch
 
 # TRIGGERS
 on:
-  # page_build:
-  # schedule: # Check your schedule here => https://crontab.guru/
-  #   - cron: '55 23 * * 0' # e.g. every Sunday at 23:55
+  page_build:
+  schedule: # Check your schedule here => https://crontab.guru/
+     - cron: '0 12 * * *' # e.g. every Sunday at 23:55
   # 
   # THAT'S IT; YOU'RE DONE;
