@@ -20,7 +20,7 @@ A terminal styled website, built with react and deployed to github pages.
 
 ## Lighthouse Score
 
-![Lighthouse Score](https://raw.githubusercontent.com/TheDanniCraft/TerminalWebsite/master/lighthouse_results/desktop/pagespeed.svg)
+[![Lighthouse Score](https://raw.githubusercontent.com/TheDanniCraft/TerminalWebsite/master/lighthouse_results/desktop/pagespeed.svg)](https://htmlpreview.github.io/?https://raw.githubusercontent.com/TheDanniCraft/TerminalWebsite/master/lighthouse_results/desktop/thedannicraft_de.html)
 
 ## Tech Stack
 
