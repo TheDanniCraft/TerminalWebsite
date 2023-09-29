@@ -3,7 +3,7 @@
 ![Terminal Portfolio Website by TheDanniCraft](https://cdn.thedannicraft.de/Terminal.png)
 
 ![react](https://img.shields.io/badge/Built%20with-React-blue?style=for-the-badge)
-[![Deploy Status](https://img.shields.io/github/actions/workflow/status/TheDanniCraft/TerminalWebsite/nextjs.yml?style=for-the-badge)](https://github.com/TheDanniCraft/TerminalWebsitehttps://app.netlify.com/sites/terminal-sn/deploy)
+[![Deploy Status](https://img.shields.io/github/actions/workflow/status/TheDanniCraft/TerminalWebsite/nextjs.yml?style=for-the-badge)](https://github.com/TheDanniCraft/TerminalWebsite)
 ![Version](https://img.shields.io/github/package-json/v/TheDanniCraft/TerminalWebsite?style=for-the-badge)
 ![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=for-the-badge)](#contributors)
@@ -17,6 +17,10 @@ A terminal styled website, built with react and deployed to github pages.
 - View command history 📖
 - Tab Complete ⏭️
 - Use arrow keys to navigate in command history ⬆️⬇️
+
+## Lighthouse Score
+
+![Lighthouse Score](https://raw.githubusercontent.com/TheDanniCraft/TerminalWebsite/master/lighthouse_results/desktop/pagespeed.svg)
 
 ## Tech Stack
 
