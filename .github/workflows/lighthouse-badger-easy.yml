@@ -17,7 +17,7 @@ env:
   URLS: https://thedannicraft.de # URL(s) to be checked e.g. 'https://github.com/sitdisch https://github.com/mythemeway'
   TOKEN_NAME: LIGHTHOUSE_BADGER_TOKEN # target token name; insert only the name never the real value e.g. 'LIGHTHOUSE_BADGER_TOKEN'
   # THAT'S IT; JUMP TO THE TRIGGERS;
-  REPO_BRANCH: '${{ github.repository }} main' # target repo & branch
+  REPO_BRANCH: '${{ github.repository }} master' # target repo & branch
 
 # TRIGGERS
 on:
