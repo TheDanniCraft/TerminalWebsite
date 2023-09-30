@@ -25,6 +25,8 @@ on:
     workflows: [Deploy Next.js site to Pages]
     types:
       - completed
+    branches:
+      - master
   schedule: # Check your schedule here => https://crontab.guru/
      - cron: '0 0 1 * *' # e.g. every Sunday at 23:55
   # 
