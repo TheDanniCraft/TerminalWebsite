@@ -8,7 +8,7 @@ on:
   # Runs on pushes targeting the default branch
   push:
     paths-ignore:
-      - '/lighthouse_results/**' # Ignore changes in the /lighthouse_results folder
+      - 'lighthouse_results/**' # Ignore changes in the lighthouse_results folder
     branches: ["master"]
     
   pull_request:
