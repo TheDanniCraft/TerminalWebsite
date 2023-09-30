@@ -6,7 +6,7 @@
 # License: MIT
 # Copyright (c) 2021 Sitdisch
 
-name: 'Lighthouse-Badger-Easy'
+name: 'Lighthouse Badger'
 
 ########################################################################
 # DEFINE YOUR INPUTS AND TRIGGERS IN THE FOLLOWING
@@ -22,8 +22,10 @@ env:
 # TRIGGERS
 on:
   page_build:
+    branches:
+      - master
   schedule: # Check your schedule here => https://crontab.guru/
-     - cron: '0 12 * * *' # e.g. every Sunday at 23:55
+     - cron: '0 0 1 * *' # e.g. every Sunday at 23:55
   # 
   # THAT'S IT; YOU'RE DONE;
   workflow_dispatch:
