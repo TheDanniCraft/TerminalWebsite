@@ -177,6 +177,7 @@ export default function Home() {
         </div>
         <p class="commandWrapper" style={{ paddingTop: 10 }} ref={scrollRef}>
           <span class="prefix">visitor</span>@<span class="secondary">thedannicraft.de</span>:~$ <input class="commandPromt" style={{ paddingLeft: 5 }} ref={commandRef} onBlur={regainCommandFocus} type="text" value={inputValue} onChange={handleChange} onKeyDown={handleKeyPress}></input>
+          <label for="commandPromt" class="hiddenLabel">Enter your command:</label>
         </p>
       </div>
     </main >
