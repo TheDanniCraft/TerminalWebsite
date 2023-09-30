@@ -21,9 +21,10 @@ env:
 
 # TRIGGERS
 on:
-  page_build:
-    branches:
-      - master
+  workflow_run:
+    workflows: [Deploy Next.js site to Pages]
+    types:
+      - completed
   schedule: # Check your schedule here => https://crontab.guru/
      - cron: '0 0 1 * *' # e.g. every Sunday at 23:55
   # 
