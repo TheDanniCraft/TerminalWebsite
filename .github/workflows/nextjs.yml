@@ -7,8 +7,10 @@ name: Deploy Next.js site to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
+    paths-ignore:
+      - '/lighthouse_results/**' # Ignore changes in the /lighthouse_results folder
     branches: ["master"]
-
+    
   pull_request:
     types:
       - opened
