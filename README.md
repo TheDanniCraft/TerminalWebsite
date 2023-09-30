@@ -6,7 +6,7 @@
 [![Deploy Status](https://img.shields.io/github/actions/workflow/status/TheDanniCraft/TerminalWebsite/nextjs.yml?style=for-the-badge)](https://github.com/TheDanniCraft/TerminalWebsite)
 ![Version](https://img.shields.io/github/package-json/v/TheDanniCraft/TerminalWebsite?style=for-the-badge)
 ![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=for-the-badge) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=for-the-badge)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 A terminal styled website, built with react and deployed to github pages.
@@ -70,7 +70,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ColorsCrypt"><img src="https://avatars.githubusercontent.com/u/126079750?v=4?s=100" width="100px;" alt="Colors"/><br /><sub><b>Colors</b></sub></a><br /><a href="https://github.com/TheDanniCraft/TerminalWebsite/commits?author=ColorsCrypt" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ColorsCrypt"><img src="https://avatars.githubusercontent.com/u/126079750?v=4?s=100" width="100px;" alt="Colors"/><br /><sub><b>Colors</b></sub></a><br /><a href="https://github.com/TheDanniCraft/TerminalWebsite/commits?author=ColorsCrypt" title="Code">💻</a> <a href="#a11y-ColorsCrypt" title="Accessibility">️️️️♿️</a> <a href="https://github.com/TheDanniCraft/TerminalWebsite/issues?q=author%3AColorsCrypt" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>
