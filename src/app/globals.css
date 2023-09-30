@@ -54,7 +54,7 @@ a:hover {
 }
 
 /*  Hide label for user but nit for screenreader*/
-.hiddenLabel {
+#commandInput {
 	position: absolute;
 	left: -9999px;
   	width: 1px;
