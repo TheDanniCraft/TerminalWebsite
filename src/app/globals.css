@@ -54,7 +54,7 @@ a:hover {
 }
 
 /*  Hide label for user but not for screenreader*/
-#commandInput {
+.hiddenLabel {
 	position: absolute;
 	left: -9999px;
   	width: 1px;
