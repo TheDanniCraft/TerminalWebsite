@@ -8,7 +8,7 @@ on:
   # Runs on pushes targeting the default branch
   push:
     paths-ignore:
-      - 'lighthouse_results/**' # Ignore changes in the lighthouse_results folder
+      - "lighthouse_results/**" # Ignore changes in the lighthouse_results folder
     branches: ["master"]
 
   # Allows you to run this workflow manually from the Actions tab
@@ -75,10 +75,8 @@ jobs:
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
-      - name: Build with Next.js
+      - name: Build & Export with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
-      - name: Static HTML export with Next.js
-        run: ${{ steps.detect-package-manager.outputs.runner }} next export
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
