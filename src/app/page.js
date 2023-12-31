@@ -167,7 +167,7 @@ export default function Home() {
 
   return (
     <main>
-      <script defer data-domain="thedannicraft.de" src="https://analytics.thedannicraft.de/js/script.js"></script>
+      <script defer data-domain="terminal.thedannicraft.de" src="https://analytics.thedannicraft.de/js/script.js"></script>
       <div style={{ padding: 20, paddingTop: 12 }}>
         <div class="terminal">
           <WelcomeCommand command={"welcome"}></WelcomeCommand>
