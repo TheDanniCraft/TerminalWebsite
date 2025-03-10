@@ -88,6 +88,12 @@ I was inspired by these people/projects. Without them I wouldn't even had the id
 
 - [@satnaing](https://github.com/satnaing)
 
+## Sponsors
+
+| <img src="https://github.com/user-attachments/assets/673479c3-7383-4978-8454-edab1cf5f30d" width="64"> | [**Termius**](https://termius.com/) provides a secure, reliable, and collaborative SSH client. |
+|:----------------------------------------------------------------------------------------------------:|------------------------------------------------------------------------|
+
+
 ## Author
 
 - [@thedannicraft](https://´github.com/thedannicraft)
