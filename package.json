@@ -11,8 +11,8 @@
 	"dependencies": {
 		"autoprefixer": "10.6.0",
 		"eslint": "9.39.5",
-		"eslint-config-next": "15.5.25",
-		"next": "15.5.25",
+		"eslint-config-next": "16.3.5",
+		"next": "16.3.5",
 		"postcss": "8.5.28",
 		"react": "19.3.0",
 		"react-dom": "19.3.0",
