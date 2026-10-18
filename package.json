@@ -13,7 +13,7 @@
 		"eslint": "9.39.5",
 		"eslint-config-next": "15.5.28",
 		"next": "15.5.28",
-		"postcss": "8.5.30",
+		"postcss": "8.5.31",
 		"react": "19.3.1",
 		"react-dom": "19.3.1",
 		"tailwindcss": "3.4.19"
