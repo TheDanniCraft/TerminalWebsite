@@ -10,7 +10,7 @@
 	},
 	"dependencies": {
 		"autoprefixer": "10.6.2",
-		"eslint": "9.39.5",
+		"eslint": "10.15.0",
 		"eslint-config-next": "15.5.29",
 		"next": "15.5.29",
 		"postcss": "8.5.33",
