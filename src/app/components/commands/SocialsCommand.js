@@ -2,26 +2,28 @@ import React from 'react';
 import CommandLine from '../CommandLine.js';
 import CommandUsage from '../CommandUsage.js';
 
+const SocialLine = (props) => {
+    const name = props.name;
+    const link = props.link;
+
+    return (
+        <tr>
+            <td class="secondary" style={{ width: 150 }}>
+                {name}
+            </td>
+            <span>-&nbsp;&nbsp;</span>
+            <td>
+                {link}
+            </td>
+        </tr>
+    )
+}
+
 const SocialsCommand = (props) => {
     const command = props.command;
     const args = props.args;
 
-    const SocialLine = (props) => {
-        const name = props.name;
-        const link = props.link;
 
-        return (
-            <tr>
-                <td class="secondary" style={{ width: 150 }}>
-                    {name}
-                </td>
-                <span>-&nbsp;&nbsp;</span>
-                <td>
-                    {link}
-                </td>
-            </tr>
-        )
-    }
 
     if (args.length < 1) {
         return (

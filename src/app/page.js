@@ -158,12 +158,8 @@ export default function Home() {
   }, []);
 
   useLayoutEffect(() => {
-    scrollToBottom();
-  });
-
-  const scrollToBottom = () => {
     scrollRef.current?.scrollIntoView({ behavior: 'auto' });
-  };
+  });
 
   return (
     <main>
